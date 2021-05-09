@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Chatter
 
 To start your Phoenix server:
@@ -19,7 +18,7 @@ Ready to run in production? Please [check our deployment guides](http://www.phoe
   * Docs: https://hexdocs.pm/phoenix
   * Mailing list: http://groups.google.com/group/phoenix-talk
   * Source: https://github.com/phoenixframework/phoenix
-=======
+
 # elixir_chatapp
 A chat app build using Elixir and Phoenix
->>>>>>> 1c50d82388b526540a7525d15cf19f99fc1aa3b4
+
