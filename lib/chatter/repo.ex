@@ -1,6 +1,5 @@
 defmodule Chatter.Repo do
   use Ecto.Repo, otp_app: :chatter
-  adapter: Ecto.Adapters.Postgres
   @doc """
   Dynamically loads the repository url from the
   DATABASE_URL environment variable.
