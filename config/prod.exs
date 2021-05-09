@@ -58,6 +58,14 @@ config :logger, level: :info
 #
 #     config :chatter, ChatterWeb.Endpoint, server: true
 #
+# Configure your database
+config :chatter, Chatter.Repo,
+  adapter: Ecto.Adapters.Postgres,
+  username: "postgres",
+  password: "postgres",
+  database: "chatter_test",
+  hostname: "localhost",
+  pool: Ecto.Adapters.SQL.Sandbox
 
 # Finally import the config/prod.secret.exs
 # which should be versioned separately.
